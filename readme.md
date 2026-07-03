@@ -12,12 +12,15 @@ A command-line alarm clock application written in Python.
 - Input validation
 - Graceful error handling
 
+---
+
 ## Project Structure
 
+```text
 alarm_clock/
 │
 ├── main.py
-├── alarm.json
+├── alarms.json
 ├── README.md
 ├── requirements.txt
 │
@@ -35,6 +38,9 @@ alarm_clock/
 │
 └── scheduler/
     └── scheduler.py
+```
+
+---
 
 
 ## Requirements
@@ -45,7 +51,7 @@ alarm_clock/
 
 git clone https://github.com/monikatd/AlarmClock.git
 
-cd alarm_clock
+cd AlarmClock
 
 
 ## Run
